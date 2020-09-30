@@ -1,3 +1,4 @@
+from random import randint
 def answer(num):
     if(num==1):
         return 'its certain'
@@ -13,10 +14,10 @@ def answer(num):
         return 'no dont are you mad!!!'
     elif(num==7):
         return 'Whatever the heart says'
+    
 i=0
 while(i<2):
-    from random import randint
-    print('ready to know your fate ?\n type your question !!:')
+    print('Ready to know your fate ?\n type your question !!:')
     x=input()
     r=randint(1,7)
     print(answer(r))
